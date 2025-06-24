@@ -172,6 +172,50 @@
         }
 
 
+        
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 18px;
+                padding: 0 16px;
+            }
+        
+            .services {
+                grid-template-columns: 1fr; /* 모바일에서는 1열 */
+                padding: 32px 16px;
+            }
+        
+            .card h3 {
+                font-size: 20px;
+            }
+        
+            .card p {
+                font-size: 16px;
+            }
+        
+            .cta h2 {
+                font-size: 20px;
+            }
+        
+            .cta p {
+                font-size: 14px;
+            }
+        
+            .fancy-button {
+                font-size: 14px;
+                padding: 10px 20px;
+            }
+        
+            .image-grid {
+                grid-template-columns: repeat(3, 1fr); /* 모바일에서는 로고 3열로 */
+                padding: 20px;
+            }
+        
+            .logo-box img {
+                max-height: 30px;
+            }
+        }
+        
     </style>
 </head>
 <body>
@@ -194,8 +238,7 @@
     <!-- Hero -->
     <section class="hero">
         <h1>
-            당사는 하드웨어 설계부터 펌웨어 개발, 교육, 디버깅,<br>
-            유지 보수까지 통합 임베디드 솔루션을 제공합니다.
+            당사는 하드웨어 설계부터 펌웨어 개발, 교육, 디버깅, 유지보수까지 통합 임베디드 솔루션을 제공합니다.
         </h1>
     </section>
 
@@ -207,19 +250,19 @@
     <section class="services">
         <div class="card">
             <h3>개발</h3>
-            <p>부품 선정부터 시작하여 시제품 및 제품 양산까지<br>최적의 시스템을 외주 개발 해드립니다.</p>
+            <p>부품 선정부터 시작하여 시제품 및 제품 양산까지 최적의 시스템을 외주 개발 해드립니다.</p>
         </div>
         <div class="card">
             <h3>교육</h3>
-            <p>원하시는 주제로 맞춤형 교육을 1:1 소규모부터<br />기업 출강까지 진행하고 있습니다.</p>
+            <p>원하시는 주제로 맞춤형 교육을 1:1 소규모부터 기업 출강까지 진행하고 있습니다.</p>
         </div>
         <div class="card">
             <h3>디버깅 & 안정화</h3>
-            <p>개발 단계나 제품 양산 중에 발견되는 문제의 <br />정확한 원인을 찾아서 해결해 드립니다.</p>
+            <p>개발 단계나 제품 양산 중에 발견되는 문제의 정확한 원인을 찾아서 해결해 드립니다.</p>
         </div>
         <div class="card">
             <h3>유지 보수</h3>
-            <p>생산중인 제품의 프로그램 기능 추가 및 수정<br />단종된 하드웨어 대치 및 회로 변경 도와드립니다.</p>
+            <p>생산중인 제품의 프로그램 기능 추가 및 수정 단종된 하드웨어 대치 및 회로 변경 도와드립니다.</p>
         </div>
     </section>
 
